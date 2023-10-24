@@ -1,0 +1,7 @@
+Processing Time: 106.709
+Edge Detection Time: 158.814
+Center Detection Time: 5635.48
+# of Centers: 836
+Circle Detection Time: 1374.47
+Money: $0
+Total Time (ms): 7302.33

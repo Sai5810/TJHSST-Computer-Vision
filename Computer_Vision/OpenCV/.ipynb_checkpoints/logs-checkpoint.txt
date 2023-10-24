@@ -1,0 +1,17 @@
+The plane defined by (x-a)*n =0 is:
+  a = [200, 0, 0]
+  n = [1, 0, 0]
+The eye e is:
+  e = [400, 0, 0]
+The coordinates in the plane x = p0 + u*w1 + v*w2 are:
+  p0 = [200, 0, 0]
+  w1 = [0, 0, 1]
+  w2 = [0, -1, 0]
+The frame1 in 3d has the following edges:
+The frame1 in 2d has the following edges:
+The frame1 in 3d has the following edges:
+The frame2 in 2d has the following edges:
+The frame1 in 3d has the following edges:
+The frame3 in 2d has the following edges:
+The frame1 in 3d has the following edges:
+The frame4 in 2d has the following edges:

@@ -1,0 +1,134 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_target",
+			"_ocv_create_module",
+			"ocv_create_module"
+		],
+		"files" : 
+		[
+			"opencv/cmake/OpenCVUtils.cmake",
+			"opencv/cmake/OpenCVModule.cmake",
+			"opencv/modules/highgui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 882,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1041,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1224,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/lib/libopencv_highgui455d.dll.a"
+			],
+			"targetId" : "opencv_highgui::@248529d3dfb903c2c9d7",
+			"targetIndex" : 22,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libs",
+			"destination" : "x64/mingw/bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"bin/libopencv_highgui455d.dll"
+			],
+			"targetId" : "opencv_highgui::@248529d3dfb903c2c9d7",
+			"targetIndex" : 22,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/highgui/include/opencv2/highgui.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "dev",
+			"destination" : "include/opencv2/highgui",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/highgui/include/opencv2/highgui/highgui.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "dev",
+			"destination" : "include/opencv2/highgui",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/highgui/include/opencv2/highgui/highgui_c.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "opencv/modules/highgui",
+		"source" : "opencv/modules/highgui"
+	}
+}

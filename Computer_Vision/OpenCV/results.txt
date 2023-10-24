@@ -1,0 +1,6 @@
+Dollars:3
+Quarters:2
+Dimes:40
+Nickels:0
+Pennies:56
+Cost:8.06

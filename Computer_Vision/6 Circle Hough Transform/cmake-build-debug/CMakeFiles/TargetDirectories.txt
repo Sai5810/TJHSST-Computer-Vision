@@ -1,0 +1,3 @@
+C:/Users/saiva/CLionProjects/Computer_Vision/6 Circle Hough Transform/cmake-build-debug/CMakeFiles/Circle_Hough_Transform.dir
+C:/Users/saiva/CLionProjects/Computer_Vision/6 Circle Hough Transform/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/saiva/CLionProjects/Computer_Vision/6 Circle Hough Transform/cmake-build-debug/CMakeFiles/rebuild_cache.dir

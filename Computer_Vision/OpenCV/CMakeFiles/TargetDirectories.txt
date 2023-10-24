@@ -1,0 +1,3 @@
+/cluster/2023svaka/OpenCV/CMakeFiles/rebuild_cache.dir
+/cluster/2023svaka/OpenCV/CMakeFiles/edit_cache.dir
+/cluster/2023svaka/OpenCV/CMakeFiles/exe.dir

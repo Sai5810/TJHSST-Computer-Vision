@@ -1,0 +1,204 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_target",
+			"_ocv_create_module",
+			"ocv_create_module"
+		],
+		"files" : 
+		[
+			"opencv/cmake/OpenCVUtils.cmake",
+			"opencv/cmake/OpenCVModule.cmake",
+			"opencv/modules/videoio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 255,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 882,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1041,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1224,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1059,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 283,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/lib/libopencv_videoio455d.dll.a"
+			],
+			"targetId" : "opencv_videoio::@c5faa4280b2b7a09d203",
+			"targetIndex" : 66,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libs",
+			"destination" : "x64/mingw/bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"bin/libopencv_videoio455d.dll"
+			],
+			"targetId" : "opencv_videoio::@c5faa4280b2b7a09d203",
+			"targetIndex" : 66,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/videoio/include/opencv2/videoio.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "dev",
+			"destination" : "include/opencv2/videoio",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/videoio/include/opencv2/videoio/cap_ios.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "dev",
+			"destination" : "include/opencv2/videoio/legacy",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/videoio/include/opencv2/videoio/legacy/constants_c.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "dev",
+			"destination" : "include/opencv2/videoio",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/videoio/include/opencv2/videoio/registry.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "dev",
+			"destination" : "include/opencv2/videoio",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/videoio/include/opencv2/videoio/videoio.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "dev",
+			"destination" : "include/opencv2/videoio",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"opencv/modules/videoio/include/opencv2/videoio/videoio_c.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "libs",
+			"destination" : "x64/mingw/bin",
+			"paths" : 
+			[
+				{
+					"from" : "cmake-build-debug/opencv/3rdparty/ffmpeg/opencv_videoio_ffmpeg.dll",
+					"to" : "opencv_videoio_ffmpeg455.dll"
+				}
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "opencv/modules/videoio",
+		"source" : "opencv/modules/videoio"
+	}
+}

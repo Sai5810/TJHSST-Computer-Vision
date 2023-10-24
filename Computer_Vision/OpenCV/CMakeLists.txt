@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(OpenCVCircles)
+set(CMAKE_CXX_STANDARD 11)
+find_package(OpenCV REQUIRED)
+add_executable(exe l083.cpp)
+target_link_libraries(exe ${OpenCV_LIBS})

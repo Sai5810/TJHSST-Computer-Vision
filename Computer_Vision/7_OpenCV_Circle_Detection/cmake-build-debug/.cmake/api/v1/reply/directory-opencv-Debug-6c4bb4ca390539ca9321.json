@@ -1,0 +1,437 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_3rdparty_licenses",
+			"include",
+			"_add_modules_1",
+			"ocv_glob_modules",
+			"ocv_register_modules",
+			"add_backend",
+			"ocv_gen_config"
+		],
+		"files" : 
+		[
+			"opencv/cmake/OpenCVUtils.cmake",
+			"opencv/cmake/OpenCVDetectOpenCL.cmake",
+			"opencv/CMakeLists.txt",
+			"opencv/modules/gapi/cmake/DownloadADE.cmake",
+			"opencv/modules/gapi/cmake/init.cmake",
+			"opencv/cmake/OpenCVModule.cmake",
+			"opencv/3rdparty/ffmpeg/ffmpeg.cmake",
+			"opencv/modules/videoio/cmake/detect_ffmpeg.cmake",
+			"opencv/modules/videoio/cmake/init.cmake",
+			"opencv/cmake/OpenCVGenHeaders.cmake",
+			"opencv/cmake/OpenCVGenConfig.cmake",
+			"opencv/cmake/OpenCVGenSetupVars.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 784,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1335,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 925,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 385,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 361,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 298,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 20,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 45,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1335,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 298,
+				"parent" : 7
+			},
+			{
+				"file" : 8,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 11,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 7,
+				"parent" : 16
+			},
+			{
+				"file" : 7,
+				"parent" : 17
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 13,
+				"parent" : 18
+			},
+			{
+				"file" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 44,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1335,
+				"parent" : 21
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1335,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 954,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 4,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 9,
+				"line" : 32,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 965,
+				"parent" : 0
+			},
+			{
+				"file" : 10,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 131,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 101,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 102,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 110,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 1008,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1033,
+				"parent" : 0
+			},
+			{
+				"file" : 11,
+				"parent" : 35
+			},
+			{
+				"command" : 0,
+				"file" : 11,
+				"line" : 66,
+				"parent" : 36
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "opencv/3rdparty/include/opencl/LICENSE.txt",
+					"to" : "opencl-headers-LICENSE.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "cmake-build-debug/opencv/3rdparty/ade/ade-0.1.1f/LICENSE",
+					"to" : "ade-LICENSE"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "opencv/3rdparty/ffmpeg/license.txt",
+					"to" : "ffmpeg-license.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "opencv/3rdparty/ffmpeg/readme.txt",
+					"to" : "ffmpeg-readme.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"paths" : 
+			[
+				"cmake-build-debug/cvconfig.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"paths" : 
+			[
+				"cmake-build-debug/opencv2/opencv_modules.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"exportName" : "OpenCVModules",
+			"exportTargets" : 
+			[
+				{
+					"id" : "opencv_core::@dbec0c1fcd92e41cafe4",
+					"index" : 17
+				},
+				{
+					"id" : "opencv_flann::@7028bacebdfe69c62e6d",
+					"index" : 20
+				},
+				{
+					"id" : "opencv_imgproc::@fed5f73d5ce96833c910",
+					"index" : 25
+				},
+				{
+					"id" : "opencv_ml::@95ddf64f7e462a576d12",
+					"index" : 27
+				},
+				{
+					"id" : "opencv_photo::@7b5da6599191da7e5e1d",
+					"index" : 44
+				},
+				{
+					"id" : "opencv_dnn::@fd597e81ab51c72c6bde",
+					"index" : 18
+				},
+				{
+					"id" : "opencv_features2d::@9d6d9d77b6df17fa6cf4",
+					"index" : 19
+				},
+				{
+					"id" : "opencv_imgcodecs::@c0ae2f00d71b37ddf62d",
+					"index" : 24
+				},
+				{
+					"id" : "opencv_videoio::@c5faa4280b2b7a09d203",
+					"index" : 66
+				},
+				{
+					"id" : "opencv_calib3d::@f733cfe29491943c6f90",
+					"index" : 16
+				},
+				{
+					"id" : "opencv_highgui::@248529d3dfb903c2c9d7",
+					"index" : 22
+				},
+				{
+					"id" : "opencv_objdetect::@d8b356daef1c8683e951",
+					"index" : 30
+				},
+				{
+					"id" : "opencv_stitching::@f67afe3f4b1481ef3f2e",
+					"index" : 45
+				},
+				{
+					"id" : "opencv_video::@97ed06ab1a373208393a",
+					"index" : 65
+				},
+				{
+					"id" : "opencv_gapi::@15a4d0119d6b2dbe4d6a",
+					"index" : 21
+				}
+			],
+			"paths" : 
+			[
+				"opencv/CMakeFiles/Export/x64/mingw/lib/OpenCVModules.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"paths" : 
+			[
+				"cmake-build-debug/win-install/OpenCVConfig-version.cmake",
+				"cmake-build-debug/win-install/x64/mingw/lib/OpenCVConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "dev",
+			"destination" : ".",
+			"paths" : 
+			[
+				"cmake-build-debug/win-install/OpenCVConfig-version.cmake",
+				"cmake-build-debug/win-install/OpenCVConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "libs",
+			"destination" : ".",
+			"paths" : 
+			[
+				"opencv/LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "scripts",
+			"destination" : ".",
+			"paths" : 
+			[
+				"cmake-build-debug/CMakeFiles/install/setup_vars_opencv4.cmd"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "opencv",
+		"source" : "opencv"
+	}
+}

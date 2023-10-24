@@ -1,0 +1,3 @@
+C:/Users/saiva/CLionProjects/Computer Vision/4 Convex Hull/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/saiva/CLionProjects/Computer Vision/4 Convex Hull/cmake-build-debug/CMakeFiles/Convex_Hull.dir
+C:/Users/saiva/CLionProjects/Computer Vision/4 Convex Hull/cmake-build-debug/CMakeFiles/rebuild_cache.dir

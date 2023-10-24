@@ -1,0 +1,3 @@
+C:/Users/saiva/CLionProjects/DeccanTest/cmake-build-debug/CMakeFiles/DeccanTest.dir
+C:/Users/saiva/CLionProjects/DeccanTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/saiva/CLionProjects/DeccanTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir

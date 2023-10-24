@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/saiva/CLionProjects/DeccanTest/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+cmath
+-
+iomanip
+-
+list
+-
+iterator
+-
+algorithm
+-
+time.h
+-
+
